@@ -4,13 +4,10 @@ import RightSidebar from './RightSidebar';
 
 const Home = () => {
   return (
-    <div className="home">
-        <div className="text-center py-5 px-3">
-            <h1>Hola mundo</h1>
-        </div>
-      <LeftSidebar></LeftSidebar>
-      <Feed></Feed>
-      <RightSidebar></RightSidebar>
+    <div className="home row">
+      <LeftSidebar className="col-md-3"></LeftSidebar>
+      <Feed className="col-md-4"></Feed>
+      <RightSidebar className="col-md-3"></RightSidebar>
     </div>
   );
 };

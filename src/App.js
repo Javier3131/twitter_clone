@@ -9,7 +9,7 @@ function App() {
       <div className="App">
         <Navbar></Navbar>
       </div>
-      <div className="container">
+      <main role="main" className="container">
         <Switch>
           <Route exact path="/">
             <Home></Home>
@@ -18,7 +18,7 @@ function App() {
             <NotFound></NotFound>
           </Route>
         </Switch>
-      </div>
+      </main>
     </Router>
   );
 }
